@@ -6,7 +6,7 @@
       </router-link>
     </div>
     <div v-else>
-      <button class="btn-Login" @click="logoutToggle">Logout</button>
+      <button class="btn-Login" @click="logoutToggle">LOGOUT</button>
     </div>
     <div id="surveasyLogo">
       <router-link to="/">Surveasy</router-link>
