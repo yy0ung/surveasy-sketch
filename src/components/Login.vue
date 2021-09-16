@@ -1,6 +1,6 @@
 <template>
   <div id="Login">
-    <h1>Login</h1>
+    <h1>LOGIN</h1>
     <div>
       <button class="btn-Login" @click="loginToggle">로그인하기</button>
     </div>
