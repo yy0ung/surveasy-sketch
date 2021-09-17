@@ -1,4 +1,5 @@
 <template>
+<div>
   <div id="nav">
     <div v-if="!this.$store.state.login">
       <router-link :to="{ name: 'Login' }">
@@ -20,6 +21,7 @@
     </div>
   </div>
   <router-view />
+</div>
 </template>
 
 <script>
