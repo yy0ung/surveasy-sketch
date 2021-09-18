@@ -15,6 +15,7 @@
       <h1>Logined</h1>
       <p>Dashboard</p>
       <p>로그인 한 사람이 보는 Home</p>
+      
     </div>
   </div>
 </template>

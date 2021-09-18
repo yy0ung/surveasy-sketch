@@ -4,6 +4,7 @@
       <p>{{ post.title }}</p>
     </router-link>
   </div>
+  
 </template>
 
 <script>

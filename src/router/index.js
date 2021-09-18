@@ -11,6 +11,7 @@ import postList from '../components/PostList.vue'
 import Upload from '../views/Upload.vue'
 import Cal from '../components/Cal.vue'
 import UploadPage from '../components/UploadPage.vue'
+import getPoint from '../components/Point.vue'
 
 const routes = [
   {
@@ -78,6 +79,11 @@ const routes = [
     path: '/uploadpage',
     name: 'UploadPage',
     component: UploadPage,
+  },
+  {
+    path: '/getpoint',
+    name: 'getPoint',
+    component: getPoint,
   },
 ]
 
