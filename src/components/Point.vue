@@ -7,7 +7,7 @@
     <div class="input-File">
       <input type="file" class="fileAdd" @change="uploadFiles"/>
     </div>
-    <button class="btn-getPoint" >포인트 적립하기</button>
+    <button class="btn-getPoint">포인트 적립하기</button>
     
     
     
@@ -28,9 +28,10 @@ export default {
   methods: {
     uploadFiles(e){
       var fileName = e.target.files[0]
-      var storageRef = storage.ref(fileName.name+'/'+this.userID)
+      var storageRef = storage.ref('post_name'+'/'+this.userID)
       storageRef.put(fileName)
-    }
+    },
+    
   }
 
 }
