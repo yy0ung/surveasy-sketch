@@ -4,10 +4,9 @@
     <p>업로드 된 설문이 모여있는 게시판</p>
     <div v-for="post in postList" :key="post.id" class="list-Post">
       <Post :post="post" :postId="post.id" />
+      
     </div>
-    <router-link :to="{name: 'getPoint'}">
-      <button class="btn-getPoint">포인트 받기</button>
-    </router-link>
+    
     
   </div>
 </template>

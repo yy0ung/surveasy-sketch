@@ -81,9 +81,10 @@ const routes = [
     component: UploadPage,
   },
   {
-    path: '/getpoint',
+    path: '/getpoint/:id',
     name: 'getPoint',
     component: getPoint,
+    props: true
   },
 ]
 

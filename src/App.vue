@@ -10,7 +10,7 @@
       <button class="btn-Login" @click="logoutToggle">LOGOUT</button>
     </div>
     <div id="surveasyLogo">
-      <router-link to="/">SURVEASY</router-link>
+      <router-link to="/">Surveasy</router-link>
     </div>
     <div class="index-Nav">
       <div><router-link to="/">Home</router-link></div>
