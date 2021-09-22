@@ -1,4 +1,26 @@
-<!DOCTYPE html><html lang=""><head><meta charset="utf-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width,initial-scale=1"><link rel="icon" href="/favicon.ico"><title>surveasy-sketch</title><link href="/css/app.2f5182ec.css" rel="preload" as="style"><link href="/js/app.d32736b1.js" rel="preload" as="script"><link href="/js/chunk-vendors.f56b3850.js" rel="preload" as="script"><link href="/css/app.2f5182ec.css" rel="stylesheet"></head><body><noscript><strong>We're sorry but surveasy-sketch doesn't work properly without JavaScript enabled. Please enable it to continue.</strong></noscript><div id="app"></div><script>(function () {
+<!DOCTYPE html>
+<html lang="">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width,initial-scale=1.0">
+  <link rel="icon" href="<%= BASE_URL %>favicon.ico">
+  <title>
+    <%= htmlWebpackPlugin.options.title %>
+  </title>
+</head>
+
+<body>
+  <noscript>
+    <strong>We're sorry but <%= htmlWebpackPlugin.options.title %> doesn't work properly without JavaScript enabled.
+        Please enable it to continue.</strong>
+  </noscript>
+  <div id="app"></div>
+  <!-- built files will be auto injected -->
+  <!-- Channel Plugin Scripts -->
+  <script>
+    (function () {
       var w = window;
       if (w.ChannelIO) {
         return (window.console.error || window.console.log || function () { })('ChannelIO script included twice.');
@@ -35,4 +57,9 @@
     })();
     ChannelIO('boot', {
       "pluginKey": "843d55b0-9869-472d-ad49-18ffbc40b262"
-    });</script><script src="/js/chunk-vendors.f56b3850.js"></script><script src="/js/app.d32736b1.js"></script></body></html>
+    });
+  </script>
+  <!-- End Channel Plugin -->
+</body>
+
+</html>
